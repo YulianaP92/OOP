@@ -1,0 +1,7 @@
+D:\Projects\OOP\A-1-OOP\AL-1-Start\InternetMagazine\bin\Debug\InternetMagazine.exe.config
+D:\Projects\OOP\A-1-OOP\AL-1-Start\InternetMagazine\bin\Debug\InternetMagazine.exe
+D:\Projects\OOP\A-1-OOP\AL-1-Start\InternetMagazine\bin\Debug\InternetMagazine.pdb
+D:\Projects\OOP\A-1-OOP\AL-1-Start\InternetMagazine\obj\Debug\InternetMagazine.csprojAssemblyReference.cache
+D:\Projects\OOP\A-1-OOP\AL-1-Start\InternetMagazine\obj\Debug\InternetMagazine.csproj.CoreCompileInputs.cache
+D:\Projects\OOP\A-1-OOP\AL-1-Start\InternetMagazine\obj\Debug\InternetMagazine.exe
+D:\Projects\OOP\A-1-OOP\AL-1-Start\InternetMagazine\obj\Debug\InternetMagazine.pdb

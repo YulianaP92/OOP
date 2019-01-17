@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A89E9A61-56A1-48B3-917C-91CE9AEDB60D}</ProjectGuid>
+    <ProjectGuid>{5AD7F1DD-C610-4997-80DC-463EEDAD4FE7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Advanced_Lesson_1_OOP</RootNamespace>
-    <AssemblyName>Advanced-Lesson-1-OOP</AssemblyName>
+    <RootNamespace>InternetMagazine</RootNamespace>
+    <AssemblyName>InternetMagazine</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,16 +42,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FolderAccessories\Bag.cs" />
+    <Compile Include="FolderAccessories\Earring.cs" />
+    <Compile Include="IBuy.cs" />
     <Compile Include="Goods.cs" />
-    <Compile Include="Lesson.Counter.cs" />
-    <Compile Include="Lesson.Shape.cs" />
-    <Compile Include="Lesson.Transport.cs" />
-    <Compile Include="Practice.cs" />
+    <Compile Include="FolderGoods\Accessories.cs" />
+    <Compile Include="FolderGoods\Jackets.cs" />
+    <Compile Include="FolderGoods\Shoes.cs" />
+    <Compile Include="FolderGoods\Trousers.cs" />
+    <Compile Include="FolderJackets\Blazer.cs" />
+    <Compile Include="FolderJackets\Coat.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FolderShoes\Boots.cs" />
+    <Compile Include="FolderShoes\Sandals.cs" />
+    <Compile Include="FolderTrousers\Jeans.cs" />
+    <Compile Include="FolderTrousers\Pants.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
